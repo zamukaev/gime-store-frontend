@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: -webkit-fill-available;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+.category {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: -webkit-fill-available;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+.categories {
+  margin-left: -80px;
+}
+
+.product {
+  flex: 1 0 auto;
+  margin-top: 80px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    margin-top: 35px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

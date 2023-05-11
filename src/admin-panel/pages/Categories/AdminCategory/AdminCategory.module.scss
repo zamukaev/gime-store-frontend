@@ -1,0 +1,35 @@
+.category{
+	margin: -30px 30px 30px 30px;
+	.title{
+		margin-bottom: 21px;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 20px;
+		letter-spacing: 0.2px;		
+		color: #252733;
+	}
+		.blockForm{
+			margin: 33px 0px 35px 0px;
+			display:inline-flex;
+			align-items: center;
+			img{
+				width: 60px;
+				margin-right: 14px;
+			}
+		
+		
+		}
+		.lastblockForm{
+					margin: 33px 0px 0px 0px;
+					display: inline-flex;
+					align-items: center;
+			
+		}
+		.toggleBtn{
+			display: flex;
+			margin-top: 67px;
+			margin-bottom: 250px;
+		}
+}
+
+		

@@ -1,0 +1,35 @@
+.item {
+	display: flex;
+	align-items: center;
+	margin: 14px 0px;
+
+	&:first-child {
+		margin-top: 33px;
+	}
+
+	&:last-child {
+		margin-bottom: 33px;
+}
+
+	.image {
+		margin-right: 10px;
+		align-self: center;
+
+		img {
+			max-width: 39px
+		}
+
+	}
+
+	.title {
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 20px;
+		/* identical to box height, or 167% */
+	
+		letter-spacing: 0.2px;
+	
+		color: #474950;
+
+	}
+}
